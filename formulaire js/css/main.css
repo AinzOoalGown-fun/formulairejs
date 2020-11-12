@@ -1,0 +1,38 @@
+body{
+    background: rgb(13,7,117);
+background: linear-gradient(90deg, rgba(13,7,117,1) 21%, rgba(161,70,240,1) 53%, rgba(0,116,255,1) 93%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.degrade{
+   font-size: 50px;
+   background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#045FB4));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+form{
+    margin: auto;
+    max-width: 450px;   
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.error {
+    margin-top: 0; 
+    color : red;    
+}
+
+#submitButton {
+    background:  #24cb96 ;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
